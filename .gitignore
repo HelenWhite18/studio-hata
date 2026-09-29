@@ -10,6 +10,9 @@ auth.json
 .vscode/
 *.swp
 
+# Codex project-mirror instructions; not part of the website repository.
+AGENTS.md
+
 # Dependencies and build output
 vendor/
 node_modules/
@@ -37,4 +40,3 @@ wp-content/themes/*
 # Local database exports
 *.sql
 *.sql.gz
-
