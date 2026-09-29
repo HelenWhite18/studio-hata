@@ -1,0 +1,40 @@
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+auth.json
+
+# Operating system and editor files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Dependencies and build output
+vendor/
+node_modules/
+dist/
+coverage/
+
+# WordPress runtime content
+wp-content/cache/
+wp-content/languages/
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/backup*/
+wp-content/ai1wm-backups/
+wp-content/debug.log
+
+# Third-party plugins are installed per environment, not committed.
+wp-content/plugins/*
+!wp-content/plugins/.gitkeep
+
+# Track only the Studio Hata theme.
+wp-content/themes/*
+!wp-content/themes/studio-hata/
+!wp-content/themes/studio-hata/**
+
+# Local database exports
+*.sql
+*.sql.gz
+

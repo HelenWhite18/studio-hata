@@ -1,0 +1,19 @@
+/*
+Theme Name: Studio Hata
+Theme URI: https://studiohata.nl
+Author: Studio Hata
+Description: A lean custom block theme for Studio Hata.
+Version: 0.1.0
+Requires at least: 6.6
+Requires PHP: 8.1
+Text Domain: studio-hata
+*/
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  margin: 0;
+}
+
