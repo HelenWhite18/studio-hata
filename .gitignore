@@ -12,6 +12,7 @@ auth.json
 
 # Codex project-mirror instructions; not part of the website repository.
 AGENTS.md
+sources/
 
 # Dependencies and build output
 vendor/
