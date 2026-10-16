@@ -37,7 +37,7 @@ blockquote,.hata-quote{font-family:var(--hata-serif);font-style:italic;font-size
 .hata-hero{padding:clamp(4rem,12vw,9rem) 1.5rem;text-align:center}
 .hata-hero h1{margin:0 auto .5em;max-width:16ch}
 .hata-hero p{margin:0 auto 2rem}
-.hata-section{padding:clamp(3rem,8vw,6rem) 1.5rem}
+.hata-section{box-sizing:border-box;padding:clamp(2.5rem,6vw,5rem) 0}
 .hata-section.is-linen{background:var(--hata-linen)}
 .hata-note{font-size:.95rem;color:#6B6157;border-left:2px solid var(--hata-wheat);padding-left:1rem;margin-top:2rem}
 .hata-draft{background:#fff7e0;border:1px dashed var(--hata-wheat);padding:.6rem 1rem;font-size:.85rem;border-radius:2px}
@@ -47,9 +47,13 @@ blockquote,.hata-quote{font-family:var(--hata-serif);font-style:italic;font-size
 .pll-switcher a,.lang-item a{font-size:.85rem;letter-spacing:.06em}
 
 /* Section layout (classic-theme safe: no reliance on theme.json content width) */
-.hata-hero>*,.hata-section>*{max-width:44rem;margin-left:auto;margin-right:auto}
-.hata-section>.wp-block-columns{max-width:68rem}
-.hata-section>h2,.hata-section>.hata-quote{text-align:center}
+.hata-hero>*{max-width:44rem;margin-left:auto;margin-right:auto}
+.hata-section>.wp-block-group__inner-container{box-sizing:border-box;margin-left:auto;margin-right:auto;max-width:68rem;padding-left:clamp(1.5rem,4vw,2rem);padding-right:clamp(1.5rem,4vw,2rem);width:100%}
+.hata-section>.wp-block-group__inner-container>h2,.hata-section>.wp-block-group__inner-container>p{margin-left:auto;margin-right:auto;max-width:44rem}
+.hata-section>.wp-block-group__inner-container>h2{margin-bottom:1rem;margin-top:0;text-align:center}
+.hata-section>.wp-block-group__inner-container>h2+p{margin-top:0}
+.hata-section>.wp-block-group__inner-container>.hata-quote{text-align:center}
+.hata-section>.wp-block-group__inner-container>.wp-block-columns{margin-bottom:0;margin-top:clamp(1.5rem,4vw,2.5rem);max-width:68rem}
 .wp-block-buttons{margin-top:1.5rem}
 .wp-block-columns h3{margin-top:0}
 .hata-menu-book>a{background:var(--hata-deep-sage);color:var(--hata-warm-white)!important;border-radius:2px;padding:.5em 1.2em!important}
@@ -63,4 +67,4 @@ blockquote,.hata-quote{font-family:var(--hata-serif);font-style:italic;font-size
 .hata-language-switcher a{color:var(--hata-bark);font:500 .78rem/1.4 var(--hata-sans);letter-spacing:.08em;text-decoration:none}
 .hata-language-switcher a:hover{color:var(--hata-deep-clay)}
 .hata-language-switcher a[aria-current="page"]{border-bottom:2px solid var(--hata-deep-sage)}
-@media (max-width:767px){.custom-logo{width:150px}.hata-language-bar__inner{justify-content:center}.hata-language-switcher a{align-items:center;display:inline-flex;justify-content:center;min-height:44px;min-width:36px}.menu-toggle-open,.menu-toggle-close{min-height:44px;min-width:44px}}
+@media (max-width:767px){.custom-logo{width:150px}.hata-section{padding-bottom:2rem;padding-top:2rem}.hata-language-bar__inner{justify-content:center}.hata-language-switcher a{align-items:center;display:inline-flex;justify-content:center;min-height:44px;min-width:36px}.menu-toggle-open,.menu-toggle-close{min-height:44px;min-width:44px}}

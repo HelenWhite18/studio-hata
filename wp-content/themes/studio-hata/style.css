@@ -256,7 +256,73 @@ summary:focus-visible,
   .hata-navigation-header .wp-block-navigation__responsive-container.is-menu-open {
     background: var(--wp--preset--color--custom-warm-white);
     color: var(--wp--preset--color--custom-bark);
-    padding: 1.5rem;
+    padding: 1.25rem;
+  }
+
+  .hata-navigation-header .wp-block-navigation__responsive-container-close {
+    position: absolute;
+    right: 1.25rem;
+    top: 1.25rem;
+  }
+
+  .hata-navigation-header .wp-block-navigation__responsive-container-content {
+    align-items: stretch;
+    box-sizing: border-box;
+    margin-inline: auto;
+    max-width: 28rem;
+    padding-top: 4.5rem;
+    width: 100%;
+  }
+
+  .hata-navigation-header .wp-block-navigation__responsive-container-content > .wp-block-navigation__container {
+    align-items: stretch;
+    gap: 0.25rem;
+    width: 100%;
+  }
+
+  .hata-navigation-header .wp-block-navigation__responsive-container-content > .wp-block-navigation__container > .wp-block-navigation-item {
+    align-items: stretch;
+    width: 100%;
+  }
+
+  .hata-navigation-header .wp-block-navigation__responsive-container-content .wp-block-navigation-item__content {
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    font-size: 1rem;
+    justify-content: flex-start;
+    min-height: 48px;
+    padding: 0.65rem 0.25rem;
+    width: 100%;
+  }
+
+  .hata-navigation-header .wp-block-navigation__responsive-container-content .wp-block-navigation__submenu-container {
+    background: transparent;
+    border: 0;
+    border-left: 1px solid var(--wp--preset--color--custom-oat);
+    gap: 0;
+    margin: 0.1rem 0 0.65rem 0.25rem;
+    padding: 0 0 0 1rem;
+    width: calc(100% - 0.25rem);
+  }
+
+  .hata-navigation-header .wp-block-navigation__responsive-container-content .wp-block-navigation__submenu-container .wp-block-navigation-item__content {
+    font-size: 0.92rem;
+    min-height: 44px;
+    padding-block: 0.5rem;
+  }
+
+  .hata-navigation-header .wp-block-navigation__responsive-container-content .hata-nav-book {
+    margin-top: 0.75rem;
+    width: 100%;
+  }
+
+  .hata-navigation-header .wp-block-navigation__responsive-container-content .hata-nav-book > .wp-block-navigation-item__content {
+    font-size: 1rem;
+    justify-content: center;
+    min-height: 52px;
+    padding: 0.85rem 1.5rem;
+    width: 100%;
   }
 
   .hata-language-switcher {

@@ -257,10 +257,10 @@ function hata_a_ensure_placeholder_image(
                 continue;
             }
 
-            $block['innerBlocks'][] = $image_block;
+            array_unshift($block['innerBlocks'], $image_block);
             array_splice(
                 $block['innerContent'],
-                max(0, count($block['innerContent']) - 1),
+                min(1, count($block['innerContent'])),
                 0,
                 [null]
             );
@@ -289,6 +289,54 @@ function hata_a_ensure_placeholder_image(
     );
     if (is_wp_error($result)) {
         WP_CLI::error($result);
+    }
+}
+
+/** Move one managed child block to the start of a named group. */
+function hata_a_move_group_child_to_start(
+    int $post_id,
+    string $group_class,
+    string $child_class
+): void {
+    $content = (string) get_post_field('post_content', $post_id);
+    $blocks = parse_blocks($content);
+    $changed = false;
+
+    foreach ($blocks as &$block) {
+        $group_classes = preg_split(
+            '/\s+/',
+            (string) ($block['attrs']['className'] ?? '')
+        );
+        if (
+            $block['blockName'] !== 'core/group'
+            || !in_array($group_class, $group_classes, true)
+        ) {
+            continue;
+        }
+
+        foreach ($block['innerBlocks'] as $index => $inner_block) {
+            $child_classes = preg_split(
+                '/\s+/',
+                (string) ($inner_block['attrs']['className'] ?? '')
+            );
+            if (!in_array($child_class, $child_classes, true) || $index === 0) {
+                continue;
+            }
+
+            array_splice($block['innerBlocks'], $index, 1);
+            array_unshift($block['innerBlocks'], $inner_block);
+            $changed = true;
+            break;
+        }
+        break;
+    }
+    unset($block);
+
+    if ($changed) {
+        wp_update_post([
+            'ID' => $post_id,
+            'post_content' => serialize_blocks($blocks),
+        ]);
     }
 }
 
@@ -792,6 +840,11 @@ foreach ($languages as $language) {
         $localized_alt['still-life'],
         'hata-placeholder-home-hero',
         'hata-hero'
+    );
+    hata_a_move_group_child_to_start(
+        $ids['home'][$language],
+        'hata-hero',
+        'hata-placeholder-home-hero'
     );
     hata_a_ensure_placeholder_image(
         $ids['home'][$language],
