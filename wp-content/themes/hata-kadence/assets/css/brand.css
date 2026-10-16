@@ -1,0 +1,66 @@
+/* HATA brand layer. The bundled fonts include Latin, Dutch and Ukrainian glyphs. */
+
+@font-face{font-family:"Cormorant Garamond";src:url("../fonts/cormorant-garamond-400.woff2") format("woff2");font-style:normal;font-weight:400;font-display:swap}
+@font-face{font-family:"Cormorant Garamond";src:url("../fonts/cormorant-garamond-400-italic.woff2") format("woff2");font-style:italic;font-weight:400;font-display:swap}
+@font-face{font-family:"Cormorant Garamond";src:url("../fonts/cormorant-garamond-500.woff2") format("woff2");font-style:normal;font-weight:500;font-display:swap}
+@font-face{font-family:Manrope;src:url("../fonts/manrope-400.woff2") format("woff2");font-style:normal;font-weight:400;font-display:swap}
+@font-face{font-family:Manrope;src:url("../fonts/manrope-500.woff2") format("woff2");font-style:normal;font-weight:500;font-display:swap}
+
+:root{
+  --hata-warm-white:#F7F4EE; --hata-linen:#E8DFD0; --hata-oat:#DCCEB8; --hata-wheat:#C9B28C;
+  --hata-clay:#B88D73; --hata-sage:#A8B29A; --hata-bark:#5F564D;
+  --hata-deep-sage:#5A6850;   /* derived: AA contrast on Warm White */
+  --hata-deep-clay:#7D523C;   /* AA contrast on Linen */
+  --hata-serif:"Cormorant Garamond",Georgia,"Times New Roman",serif;
+  --hata-sans:Manrope,system-ui,-apple-system,"Segoe UI",sans-serif;
+  --global-body-font-family:var(--hata-sans);
+  --global-heading-font-family:var(--hata-serif);
+}
+html{scroll-padding-top:5rem}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important;animation:none!important}}
+html,body,.site,.site-main,.content-bg{background:var(--hata-warm-white);color:var(--hata-bark)}
+body{font-family:var(--hata-sans);font-size:1.0625rem;line-height:1.75;font-weight:400}
+h1,h2,h3,h4{font-family:var(--hata-serif);font-weight:500;color:var(--hata-bark);letter-spacing:.005em;line-height:1.15}
+h1{font-size:clamp(2.6rem,6vw,4.25rem)} h2{font-size:clamp(2rem,4vw,2.9rem)} h3{font-size:1.6rem}
+p,li{max-width:66ch}
+a{color:var(--hata-deep-sage);text-underline-offset:.2em}
+a:hover{color:var(--hata-bark)}
+:focus-visible{outline:2px solid var(--hata-deep-sage);outline-offset:3px;border-radius:2px}
+blockquote,.hata-quote{font-family:var(--hata-serif);font-style:italic;font-size:1.75rem;line-height:1.4;border:0;padding:0;color:var(--hata-bark)}
+
+/* Buttons */
+.wp-block-button__link,.button,.kb-button,button[type=submit]{background:var(--hata-deep-sage)!important;color:var(--hata-warm-white)!important;border:0;border-radius:2px;padding:.9em 2em;font-family:var(--hata-sans);font-weight:500;letter-spacing:.04em}
+.wp-block-button__link:hover,.button:hover{background:var(--hata-bark)!important}
+.is-style-outline .wp-block-button__link{background:transparent!important;color:var(--hata-deep-sage)!important;box-shadow:inset 0 0 0 1px var(--hata-deep-sage)}
+
+/* Sections & content helpers (used by seeded blocks) */
+.hata-hero{padding:clamp(4rem,12vw,9rem) 1.5rem;text-align:center}
+.hata-hero h1{margin:0 auto .5em;max-width:16ch}
+.hata-hero p{margin:0 auto 2rem}
+.hata-section{padding:clamp(3rem,8vw,6rem) 1.5rem}
+.hata-section.is-linen{background:var(--hata-linen)}
+.hata-note{font-size:.95rem;color:#6B6157;border-left:2px solid var(--hata-wheat);padding-left:1rem;margin-top:2rem}
+.hata-draft{background:#fff7e0;border:1px dashed var(--hata-wheat);padding:.6rem 1rem;font-size:.85rem;border-radius:2px}
+.wp-block-details{border-bottom:1px solid var(--hata-oat);padding:1rem 0}
+.wp-block-details summary{font-family:var(--hata-serif);font-size:1.4rem;cursor:pointer}
+.custom-logo{height:auto;width:195px}
+.pll-switcher a,.lang-item a{font-size:.85rem;letter-spacing:.06em}
+
+/* Section layout (classic-theme safe: no reliance on theme.json content width) */
+.hata-hero>*,.hata-section>*{max-width:44rem;margin-left:auto;margin-right:auto}
+.hata-section>.wp-block-columns{max-width:68rem}
+.hata-section>h2,.hata-section>.hata-quote{text-align:center}
+.wp-block-buttons{margin-top:1.5rem}
+.wp-block-columns h3{margin-top:0}
+.hata-menu-book>a{background:var(--hata-deep-sage);color:var(--hata-warm-white)!important;border-radius:2px;padding:.5em 1.2em!important}
+.hata-menu-book>a:hover{background:var(--hata-bark)}
+.hata-hero h1,.hata-hero p{text-align:center}
+
+/* The language switcher is deliberately separate from the primary menu. */
+.hata-language-bar{background:var(--hata-warm-white);border-top:1px solid var(--hata-oat);border-bottom:1px solid var(--hata-oat)}
+.hata-language-bar__inner{display:flex;justify-content:flex-end;margin:0 auto;max-width:1290px;padding:.45rem 1.5rem}
+.hata-language-switcher ul{display:flex;gap:.9rem;list-style:none;margin:0;padding:0}
+.hata-language-switcher a{color:var(--hata-bark);font:500 .78rem/1.4 var(--hata-sans);letter-spacing:.08em;text-decoration:none}
+.hata-language-switcher a:hover{color:var(--hata-deep-clay)}
+.hata-language-switcher a[aria-current="page"]{border-bottom:2px solid var(--hata-deep-sage)}
+@media (max-width:767px){.custom-logo{width:150px}.hata-language-bar__inner{justify-content:center}.hata-language-switcher a{align-items:center;display:inline-flex;justify-content:center;min-height:44px;min-width:36px}.menu-toggle-open,.menu-toggle-close{min-height:44px;min-width:44px}}

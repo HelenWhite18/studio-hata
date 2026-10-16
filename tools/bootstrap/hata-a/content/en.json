@@ -1,0 +1,78 @@
+{
+  "_meta": {
+    "status": "draft",
+    "note": "Draft placeholder copy for client review; not approved for publication."
+  },
+  "home": {
+    "title": "HATA Studio",
+    "blocks": [
+      { "type": "h1", "text": "Come back to yourself" },
+      { "type": "p", "text": "A gentle space for women to slow down and reconnect with their heart." },
+      { "type": "quote", "text": "Sometimes you do not need answers. Sometimes you need space to feel." },
+      { "type": "button", "text": "Book a session", "target": "book" }
+    ]
+  },
+  "reiki": {
+    "title": "Reiki",
+    "blocks": [
+      { "type": "h1", "text": "Reiki" },
+      { "type": "p", "text": "A quiet session focused on rest, presence, and recovery." },
+      { "type": "p", "text": "You will see the current duration and price for each session in Aimy before confirming." },
+      { "type": "button", "text": "Book a session", "target": "book" }
+    ]
+  },
+  "aromatouch": {
+    "title": "AromaTouch",
+    "blocks": [
+      { "type": "h1", "text": "AromaTouch" },
+      { "type": "p", "text": "A gentle touch experience using carefully selected aromatic oils." },
+      { "type": "p", "text": "You will see the current duration and price for each session in Aimy before confirming." },
+      { "type": "button", "text": "Book a session", "target": "book" }
+    ]
+  },
+  "breath": {
+    "title": "Breathwork and mindfulness",
+    "blocks": [
+      { "type": "h1", "text": "Breathwork and mindfulness" },
+      { "type": "p", "text": "Simple breathing and awareness practices to slow down and feel grounded." },
+      { "type": "p", "text": "You will see the current duration and price for each session in Aimy before confirming." },
+      { "type": "button", "text": "Book a session", "target": "book" }
+    ]
+  },
+  "book": {
+    "title": "Book a session",
+    "blocks": [
+      { "type": "h1", "text": "Book a session" },
+      { "type": "p", "text": "You will complete your appointment in Aimy’s secure booking platform. There you choose the session, practitioner and an available time." },
+      { "type": "button", "text": "Continue to Aimy", "target": "{{BOOKING}}" },
+      { "type": "p", "text": "The booking platform is available in Dutch and English." },
+      { "type": "p", "text": "Payment is made during your visit. You can cancel or reschedule up to 24 hours before your appointment." }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "blocks": [
+      { "type": "h1", "text": "Contact" },
+      { "type": "p", "text": "Would you like to make an appointment? In Aimy you can calmly explore the sessions and available times." },
+      { "type": "button", "text": "View available times", "target": "{{BOOKING}}" },
+      { "type": "p", "text": "Already booked and have a practical question? Use the contact details in your confirmation email." },
+      { "type": "p", "text": "HATA Studio is based in the Netherlands; you will receive the visit address with your appointment." }
+    ]
+  },
+  "privacy": {
+    "title": "Privacy policy",
+    "blocks": [
+      { "type": "h1", "text": "Privacy policy" },
+      { "type": "p", "text": "This website does not use contact forms, analytics or advertising trackers. Our web server keeps standard technical logs, such as an IP address and visit time, for security." },
+      { "type": "p", "text": "When you make an appointment through Aimy or contact HATA Studio by email, HATA Studio and the relevant service providers use your details only to answer you and organise your appointment. Aimy processes booking details under its own privacy policy." },
+      { "type": "p", "text": "Under the GDPR you have the right to access, correct and delete your personal data. Contact HATA Studio to exercise these rights." }
+    ]
+  },
+  "cookies": {
+    "title": "Cookie notice",
+    "blocks": [
+      { "type": "h1", "text": "Cookie notice" },
+      { "type": "p", "text": "This site uses only functional cookies needed for it to work, such as remembering your chosen language. We do not use analytics or advertising cookies, so there is no cookie banner to accept." }
+    ]
+  }
+}

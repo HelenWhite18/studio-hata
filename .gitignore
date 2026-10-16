@@ -19,6 +19,7 @@ vendor/
 node_modules/
 dist/
 coverage/
+__pycache__/
 
 # WordPress runtime content
 wp-content/cache/
@@ -33,10 +34,16 @@ wp-content/debug.log
 wp-content/plugins/*
 !wp-content/plugins/.gitkeep
 
-# Track only the Studio Hata theme.
+# Track the two project themes; ignore third-party themes such as Kadence.
 wp-content/themes/*
 !wp-content/themes/studio-hata/
 !wp-content/themes/studio-hata/**
+!wp-content/themes/hata-kadence/
+!wp-content/themes/hata-kadence/**
+
+# Local-only generated photography used while final HATA imagery is pending.
+wp-content/themes/studio-hata/assets/images/placeholders/
+wp-content/themes/hata-kadence/assets/img/placeholders/
 
 # Local database exports
 *.sql

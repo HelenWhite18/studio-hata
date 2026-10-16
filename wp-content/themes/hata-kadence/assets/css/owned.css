@@ -1,0 +1,36 @@
+/* Variant B ("Owned"): extra polish on top of brand.css */
+.hata-v-b .site-header,.hata-v-b .site-header-wrap,.hata-v-b .site-header-row-container-inner{background:var(--hata-warm-white)!important}
+.hata-v-b .site-header{border-bottom:1px solid var(--hata-oat)}
+.hata-v-b .main-navigation .primary-menu-container>ul>li>a{font-size:.95rem;letter-spacing:.05em;color:var(--hata-bark)}
+.hata-v-b .main-navigation a:hover,.hata-v-b .main-navigation .current-menu-item>a{color:var(--hata-deep-sage)}
+.hata-v-b .hata-video-hero{background:linear-gradient(135deg,var(--hata-linen),var(--hata-warm-white));isolation:isolate;min-height:clamp(32rem,72vh,48rem);overflow:hidden;position:relative}
+.hata-v-b .hata-video-hero__poster,.hata-v-b .hata-hero-video{height:100%;inset:0;margin:0;max-width:none;object-fit:cover;position:absolute;width:100%;z-index:0}
+.hata-v-b .hata-video-hero__poster{transition:opacity .3s ease}
+.hata-v-b .hata-video-hero.is-video-ready .hata-video-hero__poster{opacity:0}
+.hata-v-b .hata-video-hero__overlay{background:var(--hata-linen)!important;inset:0;margin:0;max-width:none;opacity:.28;position:absolute;z-index:1}
+.hata-v-b .hata-video-hero.is-video-ready .hata-video-hero__overlay{opacity:.52}
+.hata-v-b .hata-video-hero>.wp-block-cover__inner-container{background:var(--hata-linen);color:var(--hata-bark);max-width:48rem;padding:clamp(2rem,5vw,3.5rem);position:relative;z-index:2}
+.hata-v-b .hata-video-toggle{align-items:center;background:var(--hata-warm-white)!important;border:2px solid var(--hata-bark);border-radius:50%;bottom:1.5rem;color:var(--hata-bark)!important;display:flex;height:44px;justify-content:center;padding:0;position:absolute;right:1.5rem;width:44px;z-index:2}
+.hata-v-b .hata-video-toggle:focus-visible{outline:3px solid var(--hata-deep-sage);outline-offset:4px}
+.hata-v-b .hata-video-toggle[hidden]{display:none}
+.hata-v-b .hata-video-toggle__icon{font-size:1rem;line-height:1}
+.hata-v-b .hata-hero h1{font-weight:400}
+.hata-v-b .hata-section.is-linen{background:linear-gradient(180deg,var(--hata-linen),var(--hata-warm-white))}
+.hata-v-b .wp-block-columns .wp-block-column{background:var(--hata-warm-white);padding:2rem;border:1px solid var(--hata-oat);border-radius:2px}
+.hata-v-b .hata-placeholder-image{margin:2rem auto;max-width:68rem}
+.hata-v-b .hata-placeholder-image img{aspect-ratio:3/2;display:block;height:auto;object-fit:cover;width:100%}
+.hata-v-b .hata-service-card-image{margin:-2rem -2rem 1.5rem}
+.hata-v-b .hata-service-card-image img{aspect-ratio:4/3}
+.hata-v-b .wp-block-separator{border:0;height:1px;background:var(--hata-wheat);max-width:5rem;margin:3rem auto}
+.hata-v-b .entry-title{text-align:center;margin-bottom:1.5rem}
+.hata-v-b .site-footer{background:var(--hata-linen);color:var(--hata-bark);border-top:1px solid var(--hata-oat);margin-top:clamp(3rem,8vw,6rem);padding:clamp(2.5rem,6vw,4rem) 1.5rem}
+.hata-v-b .hata-footer-inner{align-items:flex-start;display:flex;gap:2rem;justify-content:space-between;margin:0 auto;max-width:1290px}
+.hata-v-b .hata-footer-name{font-weight:500;letter-spacing:.04em;margin:0}
+.hata-v-b .hata-footer-region{font-size:.9rem;margin:.35rem 0}
+.hata-v-b .hata-contact-details{font-size:.9rem;font-style:normal}
+.hata-v-b .hata-footer-links{text-align:right}
+.hata-v-b .hata-footer-navigation ul{display:flex;gap:1.25rem;justify-content:flex-end;list-style:none;margin:0;padding:0}
+.hata-v-b .hata-footer-navigation a{color:var(--hata-bark);font-size:.9rem}
+.hata-v-b .hata-disclaimer{font-size:.8rem;margin:.75rem 0 0;max-width:32rem}
+@media (max-width:767px){.hata-v-b .hata-video-hero{min-height:34rem}.hata-v-b .hata-video-hero>.wp-block-cover__inner-container{margin:1rem;padding:2rem 1.25rem;width:auto}.hata-v-b .hata-footer-inner{flex-direction:column}.hata-v-b .hata-footer-links{text-align:left}.hata-v-b .hata-footer-navigation ul{justify-content:flex-start}.hata-v-b .hata-footer-navigation a{align-items:center;display:inline-flex;min-height:44px}}
+@media (prefers-reduced-motion:reduce){.hata-v-b .hata-hero-video,.hata-v-b .hata-video-toggle{display:none!important}.hata-v-b .hata-video-hero__overlay{opacity:.28!important}.hata-v-b .hata-video-hero__poster{transition:none}}

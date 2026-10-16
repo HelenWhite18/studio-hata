@@ -2,8 +2,8 @@
 Theme Name: Studio Hata
 Theme URI: https://studiohata.nl
 Author: Studio Hata
-Description: A lean custom block theme for Studio Hata.
-Version: 0.1.0
+Description: HATA A, a lean custom block theme built from scratch.
+Version: 0.2.0
 Requires at least: 6.6
 Requires PHP: 8.1
 Text Domain: studio-hata
@@ -17,3 +17,275 @@ body {
   margin: 0;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+blockquote,
+.wp-block-quote {
+  text-wrap: balance;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+.hata-hero {
+  animation: hata-hero-drift 60s ease-in-out infinite alternate;
+  background: linear-gradient(120deg, var(--wp--preset--color--custom-warm-white), var(--wp--preset--color--custom-sage-mist), var(--wp--preset--color--custom-linen));
+  background-size: 300% 300%;
+  box-sizing: border-box;
+  margin-left: calc(50% - 50vw) !important;
+  margin-right: calc(50% - 50vw) !important;
+  max-width: none !important;
+  padding-block: var(--wp--preset--spacing--60);
+  padding-inline: var(--wp--preset--spacing--40);
+  width: 100vw;
+}
+
+@keyframes hata-hero-drift {
+  from { background-position: 0% 50%; }
+  to { background-position: 100% 50%; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hata-hero { animation: none; background-position: 50% 50%; }
+}
+
+a:focus-visible,
+button:focus-visible,
+summary:focus-visible,
+.wp-block-navigation-item__content:focus-visible {
+  outline: 3px solid var(--wp--preset--color--custom-deep-clay);
+  outline-offset: 4px;
+}
+
+.hata-site-header {
+  background: var(--wp--preset--color--custom-warm-white);
+  border-bottom: 1px solid var(--wp--preset--color--custom-linen);
+  padding: 1rem var(--wp--preset--spacing--50);
+  position: relative;
+  z-index: 20;
+}
+
+.hata-header-inner {
+  gap: 2rem;
+  min-height: 64px;
+}
+
+.hata-site-logo,
+.hata-site-logo img {
+  height: auto;
+  max-width: 160px;
+  width: 160px;
+}
+
+.hata-header-actions {
+  gap: clamp(1rem, 2vw, 2rem);
+  margin-left: auto;
+}
+
+.hata-navigation-header,
+.hata-navigation-header .wp-block-navigation-item__content {
+  color: var(--wp--preset--color--custom-bark);
+  font-family: var(--wp--preset--font-family--manrope);
+  font-size: 0.93rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.hata-navigation-header .wp-block-navigation-item__content:hover,
+.hata-navigation-header .wp-block-navigation-item__content:focus-visible {
+  color: var(--wp--preset--color--custom-deep-clay);
+}
+
+.hata-navigation-header .wp-block-navigation__submenu-container {
+  background: var(--wp--preset--color--custom-warm-white);
+  border: 1px solid var(--wp--preset--color--custom-linen);
+  padding: 0.6rem;
+}
+
+.hata-navigation-header .hata-nav-book > .wp-block-navigation-item__content {
+  background: var(--wp--preset--color--custom-deep-sage);
+  border-radius: 999px;
+  color: var(--wp--preset--color--custom-warm-white);
+  padding: 0.65rem 1.15rem;
+}
+
+.hata-navigation-header .hata-nav-book > .wp-block-navigation-item__content:hover,
+.hata-navigation-header .hata-nav-book > .wp-block-navigation-item__content:focus-visible {
+  background: var(--wp--preset--color--custom-bark);
+  color: var(--wp--preset--color--custom-warm-white);
+}
+
+.hata-language-switcher ul {
+  display: flex;
+  gap: 0.45rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.hata-language-switcher a {
+  color: var(--wp--preset--color--custom-bark);
+  font-family: var(--wp--preset--font-family--manrope);
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-decoration: none;
+}
+
+.hata-language-switcher a:hover,
+.hata-language-switcher a:focus-visible {
+  color: var(--wp--preset--color--custom-deep-clay);
+}
+
+.hata-language-switcher a[aria-current="page"] {
+  border-bottom: 2px solid currentColor;
+}
+
+.hata-home-section {
+  margin-top: var(--wp--preset--spacing--60);
+  padding-bottom: var(--wp--preset--spacing--50);
+  padding-top: var(--wp--preset--spacing--50);
+  scroll-margin-top: 7rem;
+}
+
+.hata-home-about {
+  background: var(--wp--preset--color--custom-linen);
+  box-shadow: 0 0 0 100vmax var(--wp--preset--color--custom-linen);
+  clip-path: inset(0 -100vmax);
+}
+
+.hata-draft-note {
+  color: var(--wp--preset--color--custom-deep-clay);
+  font-size: 0.8rem;
+  font-style: italic;
+}
+
+.hata-placeholder-image {
+  margin-block: var(--wp--preset--spacing--40);
+}
+
+.hata-placeholder-image img {
+  aspect-ratio: 3 / 2;
+  display: block;
+  height: auto;
+  object-fit: cover;
+  width: 100%;
+}
+
+.hata-placeholder-home-hero img {
+  aspect-ratio: 16 / 9;
+}
+
+.hata-site-footer {
+  background: var(--wp--preset--color--custom-linen);
+  color: var(--wp--preset--color--custom-bark);
+  margin-top: var(--wp--preset--spacing--60);
+  padding: var(--wp--preset--spacing--50);
+}
+
+.hata-footer-inner {
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.hata-footer-name {
+  font-family: var(--wp--preset--font-family--manrope);
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  margin-bottom: 0;
+}
+
+.hata-contact-details {
+  font-style: normal;
+}
+
+.hata-contact-details a,
+.hata-navigation-footer .wp-block-navigation-item__content {
+  color: var(--wp--preset--color--custom-bark);
+  font-size: 0.85rem;
+}
+
+.hata-navigation-footer {
+  gap: 1rem;
+}
+
+.hata-disclaimer {
+  font-size: 0.8rem;
+  margin-top: 0.75rem;
+  max-width: 32rem;
+}
+
+@media (max-width: 781px) {
+  .hata-site-header {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .hata-header-inner {
+    gap: 0.75rem;
+  }
+
+  .hata-site-logo,
+  .hata-site-logo img {
+    max-width: 132px;
+    width: 132px;
+  }
+
+  .hata-header-actions {
+    gap: 0.8rem;
+  }
+
+  .hata-navigation-header .wp-block-navigation__responsive-container-open,
+  .hata-navigation-header .wp-block-navigation__responsive-container-close {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    min-height: 44px;
+    min-width: 44px;
+  }
+
+  .hata-navigation-header .wp-block-navigation__responsive-container:not(.is-menu-open) {
+    display: none;
+  }
+
+  .hata-navigation-header .wp-block-navigation__responsive-container.is-menu-open {
+    background: var(--wp--preset--color--custom-warm-white);
+    color: var(--wp--preset--color--custom-bark);
+    padding: 1.5rem;
+  }
+
+  .hata-language-switcher {
+    display: block;
+    flex: 0 0 auto;
+  }
+
+  .hata-language-switcher a {
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    min-height: 44px;
+    min-width: 36px;
+  }
+
+  .hata-footer-inner {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 782px) {
+  .hata-navigation-header .wp-block-navigation__responsive-container-open {
+    display: none;
+  }
+
+  .hata-navigation-header .wp-block-navigation__responsive-container:not(.hidden-by-default) {
+    display: block;
+    position: static;
+    width: auto;
+  }
+}

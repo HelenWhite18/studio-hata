@@ -11,38 +11,30 @@ core, third-party plugins, uploads, databases, and secrets stay outside Git.
 ```text
 .
 ├── .github/workflows/quality.yml  # Safe checks on pushes and pull requests
-├── compose.yaml                   # Optional portable local environment
+├── docs/local-development.md      # LocalWP setup and daily workflow
 ├── docs/environments.md           # Local, staging, and production policy
+├── docs/polylang.md               # Reproducible multilingual configuration
+├── tools/bootstrap/hata-a/         # Idempotent HATA A bootstrap and draft copy
+├── tools/seed/                     # Imported HATA B content tooling
 └── wp-content/
-    ├── mu-plugins/                # Always-on custom functionality
+    ├── mu-plugins/hata-core.php   # Environment guards and structured data
     ├── plugins/                   # Third-party plugins; ignored by Git
-    └── themes/studio-hata/        # The custom Studio Hata block theme
+    └── themes/
+        ├── studio-hata/           # HATA A: custom block theme from scratch
+        └── hata-kadence/          # HATA B: Kadence child theme
 ```
 
-## Local development with Docker
+## Local development with LocalWP
 
-Docker is not currently installed on the machine where this repository was
-created. The configuration is included so any developer can use the same setup
-once Docker Desktop, OrbStack, or another Compose-compatible runtime is present.
+LocalWP is the local runtime for this project. The Git clone remains the primary
+working copy. HATA A links to the custom `studio-hata` block theme; HATA B links
+to the `hata-kadence` child theme and installs the free Kadence parent theme
+inside LocalWP. Both variants link to the shared must-use plugin. WordPress core,
+the database, uploads, and third-party plugins remain managed by LocalWP and
+outside Git.
 
-1. Copy `.env.example` to `.env` and replace the local-only passwords.
-2. Run `docker compose up -d`.
-3. Open `http://localhost:8080` (or the port set in `.env`).
-4. Complete the WordPress installer and activate **Studio Hata**.
-
-Stop the environment with `docker compose down`. Add `--volumes` only when you
-intentionally want to delete the local database and WordPress installation.
-
-## LocalWP alternative
-
-Create a site named `studio-hata`, then point or copy its `app/public/wp-content`
-directory to this repository's `wp-content`. Match PHP 8.3 and set the WordPress
-environment type to `local`. Do not commit LocalWP-generated configuration,
-database files, logs, uploads, or SSL material.
-
-Use one local approach per developer. Docker is the shared baseline because its
-configuration is reviewable; LocalWP is a convenience, not a second source of
-truth.
+See [docs/local-development.md](docs/local-development.md) for the one-time setup
+and daily workflow. Docker is not part of the active development setup.
 
 ## Environments
 
@@ -91,9 +83,10 @@ Content, users, bookings, and settings live in the database. Media lives in the
 uploads directory or object storage. Third-party plugins are installed and
 updated through a controlled environment process and recorded in documentation;
 their source is not committed. Custom business logic belongs in a custom plugin
-or `mu-plugins`, not in the theme.
+or `mu-plugins`, not in the theme. The files under `tools/seed` are development
+tools for generating reviewable draft pages; they are not deployed as runtime
+WordPress code.
 
 Before production launch, add backups, uptime monitoring, transactional email,
 security hardening, consent/analytics, and a tested staging-to-production release
 workflow based on the chosen host.
-

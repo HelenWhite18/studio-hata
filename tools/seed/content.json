@@ -1,0 +1,1291 @@
+{
+  "_meta": {
+    "status": "draft",
+    "note": "Draft copy for client review"
+  },
+  "pages": {
+    "home": {
+      "slug": {
+        "nl": "home",
+        "en": "home-en",
+        "uk": "home-uk"
+      },
+      "title": {
+        "nl": "HATA Studio",
+        "en": "HATA Studio",
+        "uk": "HATA Studio"
+      },
+      "menu": {},
+      "blocks": {
+        "en": [
+          {
+            "t": "hero",
+            "h": "Come back to yourself",
+            "x": "A gentle space for women to slow down and reconnect with your heart.",
+            "b": "Book a session",
+            "to": "book"
+          },
+          {
+            "t": "section",
+            "id": "intro",
+            "tone": "linen",
+            "blocks": [
+              {
+                "t": "h2",
+                "x": "You are already enough"
+              },
+              {
+                "t": "p",
+                "x": "Life asks us to be faster, stronger, more productive. Here you can slow down, feel your body and take a breath. No expectations, no comparison, nothing to prove."
+              }
+            ]
+          },
+          {
+            "t": "section",
+            "id": "practices",
+            "tone": "",
+            "blocks": [
+              {
+                "t": "h2",
+                "x": "Gentle practices"
+              },
+              {
+                "t": "cols",
+                "items": [
+                  {
+                    "h": "Reiki",
+                    "x": "Deep relaxation that helps you move from thoughts to sensations.",
+                    "to": "reiki",
+                    "more": "Read more",
+                    "image": "session"
+                  },
+                  {
+                    "h": "AromaTouch",
+                    "x": "Slow, caring touch with essential oils on the back and feet.",
+                    "to": "aromatouch",
+                    "more": "Read more",
+                    "image": "session"
+                  },
+                  {
+                    "h": "Breath and mindfulness",
+                    "x": "Simple practices that help the calm stay with you.",
+                    "to": "breath",
+                    "more": "Read more",
+                    "image": "studio"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "t": "section",
+            "id": "quote",
+            "tone": "linen",
+            "blocks": [
+              {
+                "t": "quote",
+                "x": "Sometimes the body doesn't need answers. It needs to feel safe."
+              },
+              {
+                "t": "btn",
+                "x": "Book a session",
+                "to": "book",
+                "ext": false
+              }
+            ]
+          }
+        ],
+        "nl": [
+          {
+            "t": "hero",
+            "h": "Kom terug bij jezelf",
+            "x": "Een zachte plek voor vrouwen om te vertragen en weer contact te maken met je hart.",
+            "b": "Maak een afspraak",
+            "to": "book"
+          },
+          {
+            "t": "section",
+            "id": "intro",
+            "tone": "linen",
+            "blocks": [
+              {
+                "t": "h2",
+                "x": "Je bent al genoeg"
+              },
+              {
+                "t": "p",
+                "x": "Het leven vraagt ons om sneller, sterker en productiever te zijn. Hier mag je vertragen, je lichaam voelen en diep ademhalen. Zonder verwachtingen, zonder vergelijking, zonder iets te hoeven bewijzen."
+              }
+            ]
+          },
+          {
+            "t": "section",
+            "id": "practices",
+            "tone": "",
+            "blocks": [
+              {
+                "t": "h2",
+                "x": "Zachte praktijken"
+              },
+              {
+                "t": "cols",
+                "items": [
+                  {
+                    "h": "Reiki",
+                    "x": "Diepe ontspanning die je helpt van gedachten naar gevoel te gaan.",
+                    "to": "reiki",
+                    "more": "Lees meer",
+                    "image": "session"
+                  },
+                  {
+                    "h": "AromaTouch",
+                    "x": "Langzame, zorgzame aanraking met etherische oliën op rug en voeten.",
+                    "to": "aromatouch",
+                    "more": "Lees meer",
+                    "image": "session"
+                  },
+                  {
+                    "h": "Ademwerk en mindfulness",
+                    "x": "Eenvoudige oefeningen waardoor de rust langer blijft.",
+                    "to": "breath",
+                    "more": "Lees meer",
+                    "image": "studio"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "t": "section",
+            "id": "quote",
+            "tone": "linen",
+            "blocks": [
+              {
+                "t": "quote",
+                "x": "Soms heeft het lichaam geen antwoorden nodig. Het heeft veiligheid nodig."
+              },
+              {
+                "t": "btn",
+                "x": "Maak een afspraak",
+                "to": "book",
+                "ext": false
+              }
+            ]
+          }
+        ],
+        "uk": [
+          {
+            "t": "hero",
+            "h": "Повернись до себе",
+            "x": "М’який простір для жінок, щоб сповільнитися і відновити зв’язок зі своїм серцем.",
+            "b": "Записатися на сесію",
+            "to": "book"
+          },
+          {
+            "t": "section",
+            "id": "intro",
+            "tone": "linen",
+            "blocks": [
+              {
+                "t": "h2",
+                "x": "Ти вже достатня"
+              },
+              {
+                "t": "p",
+                "x": "Життя вимагає бути швидшою, сильнішою, продуктивнішою. Тут можна сповільнитися, відчути тіло і глибоко вдихнути. Без очікувань, без порівнянь, без потреби щось доводити."
+              }
+            ]
+          },
+          {
+            "t": "section",
+            "id": "practices",
+            "tone": "",
+            "blocks": [
+              {
+                "t": "h2",
+                "x": "М’які практики"
+              },
+              {
+                "t": "cols",
+                "items": [
+                  {
+                    "h": "Рейкі",
+                    "x": "Глибоке розслаблення, яке допомагає перейти від думок до відчуттів.",
+                    "to": "reiki",
+                    "more": "Докладніше",
+                    "image": "session"
+                  },
+                  {
+                    "h": "AromaTouch",
+                    "x": "Повільний дбайливий дотик з ефірними оліями на спині та стопах.",
+                    "to": "aromatouch",
+                    "more": "Докладніше",
+                    "image": "session"
+                  },
+                  {
+                    "h": "Дихання і усвідомленість",
+                    "x": "Прості практики, що допомагають спокою залишитися з тобою.",
+                    "to": "breath",
+                    "more": "Докладніше",
+                    "image": "studio"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "t": "section",
+            "id": "quote",
+            "tone": "linen",
+            "blocks": [
+              {
+                "t": "quote",
+                "x": "Іноді тілу не потрібні відповіді. Йому потрібно відчути безпеку."
+              },
+              {
+                "t": "btn",
+                "x": "Записатися на сесію",
+                "to": "book",
+                "ext": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "about": {
+      "slug": {
+        "nl": "over-hata",
+        "en": "about",
+        "uk": "pro-nas"
+      },
+      "title": {
+        "nl": "Over HATA",
+        "en": "About HATA",
+        "uk": "Про HATA"
+      },
+      "menu": {
+        "nl": "Over HATA",
+        "en": "About",
+        "uk": "Про HATA"
+      },
+      "blocks": {
+        "en": [
+          {
+            "t": "p",
+            "x": "I don't help women become someone else. I create a space where they can remember who they already are."
+          },
+          {
+            "t": "image",
+            "key": "studio",
+            "alt": "A calm treatment room with soft sage walls and natural light."
+          },
+          {
+            "t": "p",
+            "x": "HATA is a quiet place to slow down. You don't need to be perfect or prove anything here. Sometimes you don't need advice or answers. You need a safe space, some silence and time to hear yourself again."
+          },
+          {
+            "t": "p",
+            "x": "I work with Reiki, essential oils, AromaTouch and breathing practices. For me these are not magic and not promises of miracles. They are gentle tools that help the nervous system settle and the body let go of tension."
+          },
+          {
+            "t": "p",
+            "x": "I know what it is like to build a life again in a new country and to live between two worlds. HATA is made with that in mind, and it is open to every woman who feels the need to stop, breathe out and find her footing."
+          },
+          {
+            "t": "h3",
+            "x": "Why HATA?"
+          },
+          {
+            "t": "p",
+            "x": "Hata means home in Ukrainian: a place of warmth and safety where you can be yourself. Houses with thatched or reed roofs belong to the landscape of both Ukraine and the Netherlands. To me they are a symbol of two countries that both live in my heart. The name also echoes Anahata, the heart chakra."
+          },
+          {
+            "t": "quote",
+            "x": "Each woman is unique. She doesn't need to become someone else to be worthy of love."
+          }
+        ],
+        "nl": [
+          {
+            "t": "p",
+            "x": "Ik help vrouwen niet om iemand anders te worden. Ik maak een ruimte waar zij zich kunnen herinneren wie ze al zijn."
+          },
+          {
+            "t": "image",
+            "key": "studio",
+            "alt": "Een rustige behandelruimte met zachtgroene muren en natuurlijk licht."
+          },
+          {
+            "t": "p",
+            "x": "HATA is een rustige plek om te vertragen. Je hoeft hier niet perfect te zijn en niets te bewijzen. Soms heb je geen advies of antwoorden nodig. Je hebt een veilige ruimte nodig, stilte en tijd om jezelf weer te horen."
+          },
+          {
+            "t": "p",
+            "x": "Ik werk met Reiki, etherische oliën, AromaTouch en ademwerk. Voor mij is dit geen magie en geen belofte van wonderen. Het zijn zachte hulpmiddelen die het zenuwstelsel helpen tot rust te komen en het lichaam spanning los te laten."
+          },
+          {
+            "t": "p",
+            "x": "Ik weet hoe het is om in een nieuw land opnieuw een leven op te bouwen en tussen twee werelden te leven. HATA is met die gedachte gemaakt, en is er voor iedere vrouw die behoefte heeft om stil te staan, uit te ademen en weer houvast te voelen."
+          },
+          {
+            "t": "h3",
+            "x": "Waarom HATA?"
+          },
+          {
+            "t": "p",
+            "x": "Hata betekent thuis in het Oekraïens: een plek van warmte en veiligheid waar je jezelf mag zijn. Huizen met rieten daken horen bij het landschap van zowel Oekraïne als Nederland. Voor mij zijn ze een symbool van twee landen die allebei in mijn hart wonen. De naam doet ook denken aan Anahata, de hartchakra."
+          },
+          {
+            "t": "quote",
+            "x": "Elke vrouw is uniek. Ze hoeft niemand anders te worden om liefde waard te zijn."
+          }
+        ],
+        "uk": [
+          {
+            "t": "p",
+            "x": "Я не допомагаю жінкам стати кимось іншим. Я створюю простір, де вони можуть згадати, ким були завжди."
+          },
+          {
+            "t": "image",
+            "key": "studio",
+            "alt": "Спокійна кімната для сесій із м’якими шавлієвими стінами та природним світлом."
+          },
+          {
+            "t": "p",
+            "x": "HATA — це тихе місце, де можна сповільнитися. Тут не потрібно бути ідеальною чи щось доводити. Іноді не потрібні ні поради, ні готові відповіді. Потрібні безпечний простір, тиша і час, щоб знову почути себе."
+          },
+          {
+            "t": "p",
+            "x": "У своїй роботі я використовую рейкі, ефірні олії, AromaTouch та дихальні практики. Для мене це не магія і не обіцянка див. Це м’які інструменти, які допомагають заспокоїти нервову систему і відпустити напругу в тілі."
+          },
+          {
+            "t": "p",
+            "x": "Я знаю, як це — будувати життя заново в новій країні й жити між двома світами. HATA створена з цим розумінням і відкрита для кожної жінки, яка відчуває потребу зупинитися, видихнути й знову відчути внутрішню опору."
+          },
+          {
+            "t": "h3",
+            "x": "Чому HATA?"
+          },
+          {
+            "t": "p",
+            "x": "«Хата» — це дім: місце тепла й безпеки, де можна бути собою. Будинки з солом’яними чи очеретяними дахами — частина пейзажу і в Україні, і в Нідерландах. Для мене це символ двох країн, які однаково живуть у моєму серці. Назва також перегукується з Анахатою — серцевою чакрою."
+          },
+          {
+            "t": "quote",
+            "x": "Кожна жінка унікальна. Їй не потрібно ставати кимось іншим, щоб бути гідною любові."
+          }
+        ]
+      }
+    },
+    "services": {
+      "slug": {
+        "nl": "diensten",
+        "en": "services",
+        "uk": "posluhy"
+      },
+      "title": {
+        "nl": "Diensten",
+        "en": "Services",
+        "uk": "Послуги"
+      },
+      "menu": {
+        "nl": "Diensten",
+        "en": "Services",
+        "uk": "Послуги"
+      },
+      "blocks": {
+        "en": [
+          {
+            "t": "p",
+            "x": "Every session is different. We begin with a short conversation to set an intention and choose the tools together. We finish gently, with a cup of tea."
+          },
+          {
+            "t": "cols",
+            "items": [
+              {
+                "h": "Reiki",
+                "x": "Deep relaxation that helps you move from thoughts to sensations.",
+                "to": "reiki",
+                "more": "Read more",
+                "image": "session"
+              },
+              {
+                "h": "AromaTouch",
+                "x": "Slow, caring touch with essential oils on the back and feet.",
+                "to": "aromatouch",
+                "more": "Read more",
+                "image": "session"
+              },
+              {
+                "h": "Breath and mindfulness",
+                "x": "Simple practices that help the calm stay with you.",
+                "to": "breath",
+                "more": "Read more",
+                "image": "studio"
+              }
+            ]
+          },
+          {
+            "t": "p",
+            "x": "You will see the current duration and price for each session in Aimy before confirming."
+          },
+          {
+            "t": "note",
+            "x": "HATA Studio offers complementary practices for relaxation. They are not medical care and do not replace it."
+          }
+        ],
+        "nl": [
+          {
+            "t": "p",
+            "x": "Elke sessie is anders. We beginnen met een kort gesprek om een intentie te bepalen en samen de hulpmiddelen te kiezen. We sluiten rustig af, met een kop thee."
+          },
+          {
+            "t": "cols",
+            "items": [
+              {
+                "h": "Reiki",
+                "x": "Diepe ontspanning die je helpt van gedachten naar gevoel te gaan.",
+                "to": "reiki",
+                "more": "Lees meer",
+                "image": "session"
+              },
+              {
+                "h": "AromaTouch",
+                "x": "Langzame, zorgzame aanraking met etherische oliën op rug en voeten.",
+                "to": "aromatouch",
+                "more": "Lees meer",
+                "image": "session"
+              },
+              {
+                "h": "Ademwerk en mindfulness",
+                "x": "Eenvoudige oefeningen waardoor de rust langer blijft.",
+                "to": "breath",
+                "more": "Lees meer",
+                "image": "studio"
+              }
+            ]
+          },
+          {
+            "t": "p",
+            "x": "De actuele duur en prijs van iedere sessie zie je in Aimy voordat je de afspraak bevestigt."
+          },
+          {
+            "t": "note",
+            "x": "HATA Studio biedt aanvullende praktijken voor ontspanning. Het is geen medische zorg en vervangt die ook niet."
+          }
+        ],
+        "uk": [
+          {
+            "t": "p",
+            "x": "Кожна сесія унікальна. Ми починаємо з короткої розмови, щоб сформулювати запит і разом обрати інструменти. Завершуємо м’яко, за чашкою чаю."
+          },
+          {
+            "t": "cols",
+            "items": [
+              {
+                "h": "Рейкі",
+                "x": "Глибоке розслаблення, яке допомагає перейти від думок до відчуттів.",
+                "to": "reiki",
+                "more": "Докладніше",
+                "image": "session"
+              },
+              {
+                "h": "AromaTouch",
+                "x": "Повільний дбайливий дотик з ефірними оліями на спині та стопах.",
+                "to": "aromatouch",
+                "more": "Докладніше",
+                "image": "session"
+              },
+              {
+                "h": "Дихання і усвідомленість",
+                "x": "Прості практики, що допомагають спокою залишитися з тобою.",
+                "to": "breath",
+                "more": "Докладніше",
+                "image": "studio"
+              }
+            ]
+          },
+          {
+            "t": "p",
+            "x": "Актуальні тривалість і вартість кожної сесії вказані в Aimy до підтвердження запису."
+          },
+          {
+            "t": "note",
+            "x": "HATA Studio пропонує комплементарні практики для розслаблення. Це не медична допомога і не замінює її."
+          }
+        ]
+      }
+    },
+    "reiki": {
+      "slug": {
+        "nl": "reiki",
+        "en": "reiki-sessions",
+        "uk": "reiki-seansy"
+      },
+      "title": {
+        "nl": "Reiki",
+        "en": "Reiki",
+        "uk": "Рейкі"
+      },
+      "menu": {
+        "nl": "Reiki",
+        "en": "Reiki",
+        "uk": "Рейкі"
+      },
+      "blocks": {
+        "en": [
+          {
+            "t": "image",
+            "key": "session",
+            "alt": "A quiet individual session in a softly lit studio."
+          },
+          {
+            "t": "p",
+            "x": "Reiki is a gentle practice of deep relaxation. It helps you slow down and turn your attention from a constant stream of thoughts to the sensations of your own body."
+          },
+          {
+            "t": "p",
+            "x": "In that quiet, many women find it easier to notice what they actually need and to feel an inner steadiness."
+          },
+          {
+            "t": "p",
+            "x": "We start with a short conversation, and after the practice we share our impressions over tea."
+          },
+          {
+            "t": "btn",
+            "x": "Book a session",
+            "to": "book",
+            "ext": false
+          },
+          {
+            "t": "p",
+            "x": "You will see the current duration and price for each session in Aimy before confirming."
+          },
+          {
+            "t": "note",
+            "x": "HATA Studio offers complementary practices for relaxation. They are not medical care and do not replace it."
+          }
+        ],
+        "nl": [
+          {
+            "t": "image",
+            "key": "session",
+            "alt": "Een rustige individuele sessie in een zacht verlichte studio."
+          },
+          {
+            "t": "p",
+            "x": "Reiki is een zachte praktijk van diepe ontspanning. Ze helpt je te vertragen en je aandacht te verleggen van een eindeloze stroom gedachten naar de gewaarwordingen van je eigen lichaam."
+          },
+          {
+            "t": "p",
+            "x": "In die stilte merken veel vrouwen makkelijker wat ze werkelijk nodig hebben en voelen ze innerlijke steun."
+          },
+          {
+            "t": "p",
+            "x": "We beginnen met een kort gesprek en na afloop delen we onze indrukken bij een kop thee."
+          },
+          {
+            "t": "btn",
+            "x": "Maak een afspraak",
+            "to": "book",
+            "ext": false
+          },
+          {
+            "t": "p",
+            "x": "De actuele duur en prijs van iedere sessie zie je in Aimy voordat je de afspraak bevestigt."
+          },
+          {
+            "t": "note",
+            "x": "HATA Studio biedt aanvullende praktijken voor ontspanning. Het is geen medische zorg en vervangt die ook niet."
+          }
+        ],
+        "uk": [
+          {
+            "t": "image",
+            "key": "session",
+            "alt": "Спокійна індивідуальна сесія в м’яко освітленій студії."
+          },
+          {
+            "t": "p",
+            "x": "Рейкі — це м’яка практика глибокого розслаблення. Вона допомагає сповільнитися і переключити увагу з нескінченного потоку думок на відчуття власного тіла."
+          },
+          {
+            "t": "p",
+            "x": "У цьому стані спокою багатьом жінкам легше помітити свої справжні потреби й відчути внутрішню опору."
+          },
+          {
+            "t": "p",
+            "x": "Ми починаємо з короткої розмови, а після практики ділимося враженнями за чашкою чаю."
+          },
+          {
+            "t": "btn",
+            "x": "Записатися на сесію",
+            "to": "book",
+            "ext": false
+          },
+          {
+            "t": "p",
+            "x": "Актуальні тривалість і вартість кожної сесії вказані в Aimy до підтвердження запису."
+          },
+          {
+            "t": "note",
+            "x": "HATA Studio пропонує комплементарні практики для розслаблення. Це не медична допомога і не замінює її."
+          }
+        ]
+      }
+    },
+    "aromatouch": {
+      "slug": {
+        "nl": "aromatouch",
+        "en": "aromatouch-technique",
+        "uk": "aromatouch-tekhnika"
+      },
+      "title": {
+        "nl": "AromaTouch",
+        "en": "AromaTouch",
+        "uk": "AromaTouch"
+      },
+      "menu": {
+        "nl": "AromaTouch",
+        "en": "AromaTouch",
+        "uk": "AromaTouch"
+      },
+      "blocks": {
+        "en": [
+          {
+            "t": "image",
+            "key": "session",
+            "alt": "A quiet individual session in a softly lit studio."
+          },
+          {
+            "t": "p",
+            "x": "AromaTouch is a technique of gentle touch with essential oils. During the session the oils are applied to the back and feet with slow, flowing hand movements."
+          },
+          {
+            "t": "p",
+            "x": "It is not a massage in the usual sense. It is a caring practice that helps release accumulated tension and gives the body a feeling of safety and rest."
+          },
+          {
+            "t": "p",
+            "x": "Scent is closely linked to the parts of the brain that handle emotion and memory, which is why an aroma can bring calm so quickly. The oils are there to support relaxation, not to treat anything."
+          },
+          {
+            "t": "p",
+            "x": "Please tell me about any allergies or sensitivities before we begin."
+          },
+          {
+            "t": "btn",
+            "x": "Book a session",
+            "to": "book",
+            "ext": false
+          },
+          {
+            "t": "p",
+            "x": "You will see the current duration and price for each session in Aimy before confirming."
+          },
+          {
+            "t": "note",
+            "x": "HATA Studio offers complementary practices for relaxation. They are not medical care and do not replace it."
+          }
+        ],
+        "nl": [
+          {
+            "t": "image",
+            "key": "session",
+            "alt": "Een rustige individuele sessie in een zacht verlichte studio."
+          },
+          {
+            "t": "p",
+            "x": "AromaTouch is een techniek van zachte aanraking met etherische oliën. Tijdens de sessie worden de oliën met langzame, vloeiende bewegingen op rug en voeten aangebracht."
+          },
+          {
+            "t": "p",
+            "x": "Het is geen massage in de gebruikelijke zin. Het is een zorgzame praktijk die helpt opgebouwde spanning los te laten en het lichaam een gevoel van veiligheid en rust geeft."
+          },
+          {
+            "t": "p",
+            "x": "Geur is nauw verbonden met de delen van de hersenen die emotie en herinnering verwerken. Daarom kan een aroma zo snel rust geven. De oliën ondersteunen ontspanning en behandelen niets."
+          },
+          {
+            "t": "p",
+            "x": "Laat me vooraf weten als je allergieën of gevoeligheden hebt."
+          },
+          {
+            "t": "btn",
+            "x": "Maak een afspraak",
+            "to": "book",
+            "ext": false
+          },
+          {
+            "t": "p",
+            "x": "De actuele duur en prijs van iedere sessie zie je in Aimy voordat je de afspraak bevestigt."
+          },
+          {
+            "t": "note",
+            "x": "HATA Studio biedt aanvullende praktijken voor ontspanning. Het is geen medische zorg en vervangt die ook niet."
+          }
+        ],
+        "uk": [
+          {
+            "t": "image",
+            "key": "session",
+            "alt": "Спокійна індивідуальна сесія в м’яко освітленій студії."
+          },
+          {
+            "t": "p",
+            "x": "AromaTouch — це техніка м’яких дотиків з ефірними оліями. Під час сесії олії наносяться на спину і стопи плавними, повільними рухами рук."
+          },
+          {
+            "t": "p",
+            "x": "Це не масаж у звичному розумінні. Це дбайлива практика, яка допомагає зняти накопичену напругу й дарує тілу відчуття безпеки та відпочинку."
+          },
+          {
+            "t": "p",
+            "x": "Нюх тісно пов’язаний з ділянками мозку, що відповідають за емоції та пам’ять, тому аромат так швидко може повернути спокій. Олії тут — для підтримки розслаблення, а не для лікування."
+          },
+          {
+            "t": "p",
+            "x": "Будь ласка, повідом мені про алергії чи чутливість до запахів до початку сесії."
+          },
+          {
+            "t": "btn",
+            "x": "Записатися на сесію",
+            "to": "book",
+            "ext": false
+          },
+          {
+            "t": "p",
+            "x": "Актуальні тривалість і вартість кожної сесії вказані в Aimy до підтвердження запису."
+          },
+          {
+            "t": "note",
+            "x": "HATA Studio пропонує комплементарні практики для розслаблення. Це не медична допомога і не замінює її."
+          }
+        ]
+      }
+    },
+    "breath": {
+      "slug": {
+        "nl": "ademhaling",
+        "en": "breathwork",
+        "uk": "dykhannia"
+      },
+      "title": {
+        "nl": "Ademwerk en mindfulness",
+        "en": "Breath and mindfulness",
+        "uk": "Дихання і усвідомленість"
+      },
+      "menu": {
+        "nl": "Ademwerk",
+        "en": "Breath",
+        "uk": "Дихання"
+      },
+      "blocks": {
+        "en": [
+          {
+            "t": "image",
+            "key": "studio",
+            "alt": "A calm treatment room with soft sage walls and natural light."
+          },
+          {
+            "t": "p",
+            "x": "Breathing exercises and mindfulness practices help you relax more deeply and gently move your attention from the outside world to inner sensations."
+          },
+          {
+            "t": "p",
+            "x": "I combine them with the other practices to help anchor the calm you find during the session, so it can stay with you afterwards."
+          },
+          {
+            "t": "p",
+            "x": "I don't work from a template. Together we decide which tools fit you on the day."
+          },
+          {
+            "t": "btn",
+            "x": "Book a session",
+            "to": "book",
+            "ext": false
+          },
+          {
+            "t": "p",
+            "x": "You will see the current duration and price for each session in Aimy before confirming."
+          },
+          {
+            "t": "note",
+            "x": "HATA Studio offers complementary practices for relaxation. They are not medical care and do not replace it."
+          }
+        ],
+        "nl": [
+          {
+            "t": "image",
+            "key": "studio",
+            "alt": "Een rustige behandelruimte met zachtgroene muren en natuurlijk licht."
+          },
+          {
+            "t": "p",
+            "x": "Ademoefeningen en mindfulness helpen je dieper te ontspannen en je aandacht zacht te verleggen van de buitenwereld naar innerlijke gewaarwordingen."
+          },
+          {
+            "t": "p",
+            "x": "Ik combineer ze met de andere praktijken om de rust van de sessie te verankeren, zodat die ook daarna bij je blijft."
+          },
+          {
+            "t": "p",
+            "x": "Ik werk niet volgens een sjabloon. Samen kiezen we welke hulpmiddelen die dag bij je passen."
+          },
+          {
+            "t": "btn",
+            "x": "Maak een afspraak",
+            "to": "book",
+            "ext": false
+          },
+          {
+            "t": "p",
+            "x": "De actuele duur en prijs van iedere sessie zie je in Aimy voordat je de afspraak bevestigt."
+          },
+          {
+            "t": "note",
+            "x": "HATA Studio biedt aanvullende praktijken voor ontspanning. Het is geen medische zorg en vervangt die ook niet."
+          }
+        ],
+        "uk": [
+          {
+            "t": "image",
+            "key": "studio",
+            "alt": "Спокійна кімната для сесій із м’якими шавлієвими стінами та природним світлом."
+          },
+          {
+            "t": "p",
+            "x": "Дихальні вправи та практики усвідомленості допомагають розслабитися глибше й м’яко переключити увагу із зовнішнього світу на внутрішні відчуття."
+          },
+          {
+            "t": "p",
+            "x": "Я поєдную їх з іншими практиками, щоб закріпити спокій, знайдений під час сесії, і щоб він залишався з тобою й після зустрічі."
+          },
+          {
+            "t": "p",
+            "x": "Я не працюю за шаблоном. Разом ми обираємо інструменти, які підходять тобі саме сьогодні."
+          },
+          {
+            "t": "btn",
+            "x": "Записатися на сесію",
+            "to": "book",
+            "ext": false
+          },
+          {
+            "t": "p",
+            "x": "Актуальні тривалість і вартість кожної сесії вказані в Aimy до підтвердження запису."
+          },
+          {
+            "t": "note",
+            "x": "HATA Studio пропонує комплементарні практики для розслаблення. Це не медична допомога і не замінює її."
+          }
+        ]
+      }
+    },
+    "book": {
+      "slug": {
+        "nl": "boeken",
+        "en": "book",
+        "uk": "zapys"
+      },
+      "title": {
+        "nl": "Afspraak maken",
+        "en": "Book a session",
+        "uk": "Запис на сесію"
+      },
+      "menu": {
+        "nl": "Afspraak",
+        "en": "Book",
+        "uk": "Запис"
+      },
+      "blocks": {
+        "en": [
+          {
+            "t": "image",
+            "key": "still-life",
+            "alt": "A ceramic cup and folded linen in warm window light."
+          },
+          {
+            "t": "p",
+            "x": "You will complete your appointment in Aimy’s secure booking platform. There you choose the session, practitioner and an available time."
+          },
+          {
+            "t": "btn",
+            "x": "Continue to Aimy",
+            "to": "{{BOOKING}}",
+            "ext": true
+          },
+          {
+            "t": "p",
+            "x": "The booking platform is available in Dutch and English."
+          },
+          {
+            "t": "p",
+            "x": "Payment is made during your visit. You can cancel or reschedule up to 24 hours before your appointment."
+          },
+          {
+            "t": "note",
+            "x": "HATA Studio offers complementary practices for relaxation. They are not medical care and do not replace it."
+          }
+        ],
+        "nl": [
+          {
+            "t": "image",
+            "key": "still-life",
+            "alt": "Een keramische kop en gevouwen linnen in warm raamlicht."
+          },
+          {
+            "t": "p",
+            "x": "Je rondt je afspraak af in het beveiligde boekingsplatform van Aimy. Daar kies je de gewenste sessie, de behandelaar en een beschikbaar tijdstip."
+          },
+          {
+            "t": "btn",
+            "x": "Ga naar Aimy",
+            "to": "{{BOOKING}}",
+            "ext": true
+          },
+          {
+            "t": "p",
+            "x": "De boekingsomgeving is beschikbaar in het Nederlands en Engels."
+          },
+          {
+            "t": "p",
+            "x": "Betalen doe je tijdens je bezoek. Annuleren of verplaatsen kan tot 24 uur voor je afspraak."
+          },
+          {
+            "t": "note",
+            "x": "HATA Studio biedt aanvullende praktijken voor ontspanning. Het is geen medische zorg en vervangt die ook niet."
+          }
+        ],
+        "uk": [
+          {
+            "t": "image",
+            "key": "still-life",
+            "alt": "Керамічна чашка та складений льон у теплому світлі з вікна."
+          },
+          {
+            "t": "p",
+            "x": "Після натискання ти перейдеш до захищеної платформи бронювання Aimy. Там можна обрати сесію, спеціаліста та зручний вільний час."
+          },
+          {
+            "t": "btn",
+            "x": "Перейти до Aimy",
+            "to": "{{BOOKING}}",
+            "ext": true
+          },
+          {
+            "t": "p",
+            "x": "Інтерфейс платформи доступний нідерландською та англійською мовами."
+          },
+          {
+            "t": "p",
+            "x": "Оплата — під час візиту. Скасувати або перенести запис можна не пізніше ніж за 24 години."
+          },
+          {
+            "t": "note",
+            "x": "HATA Studio пропонує комплементарні практики для розслаблення. Це не медична допомога і не замінює її."
+          }
+        ]
+      }
+    },
+    "faq": {
+      "slug": {
+        "nl": "veelgestelde-vragen",
+        "en": "faq",
+        "uk": "pytannia"
+      },
+      "title": {
+        "nl": "Veelgestelde vragen",
+        "en": "Frequently asked questions",
+        "uk": "Часті запитання"
+      },
+      "menu": {
+        "nl": "Vragen",
+        "en": "FAQ",
+        "uk": "Питання"
+      },
+      "blocks": {
+        "en": [
+          {
+            "t": "faq",
+            "items": [
+              {
+                "q": "What is HATA Studio?",
+                "a": "A quiet space for women to slow down and reconnect with themselves, using Reiki, AromaTouch and breathing practices."
+              },
+              {
+                "q": "Do I need any experience?",
+                "a": "No. Nothing is expected of you. You are welcome as you are."
+              },
+              {
+                "q": "Is this medical care?",
+                "a": "No. These are complementary practices for relaxation and do not replace medical care. If you have a health concern, please talk to your doctor."
+              },
+              {
+                "q": "What happens in a session?",
+                "a": "We start with a short conversation and set an intention. Then we choose the tools together. We finish gently and share our impressions over tea."
+              },
+              {
+                "q": "How do I book and pay?",
+                "a": "Continue to Aimy to choose a session, practitioner and available time. Payment is made during your visit. You can cancel or reschedule up to 24 hours beforehand."
+              }
+            ]
+          }
+        ],
+        "nl": [
+          {
+            "t": "faq",
+            "items": [
+              {
+                "q": "Wat is HATA Studio?",
+                "a": "Een rustige plek voor vrouwen om te vertragen en weer contact met zichzelf te maken, met Reiki, AromaTouch en ademwerk."
+              },
+              {
+                "q": "Heb ik ervaring nodig?",
+                "a": "Nee. Er wordt niets van je verwacht. Je bent welkom zoals je bent."
+              },
+              {
+                "q": "Is dit medische zorg?",
+                "a": "Nee. Dit zijn aanvullende praktijken voor ontspanning en ze vervangen geen medische zorg. Heb je een gezondheidsklacht, praat dan met je huisarts."
+              },
+              {
+                "q": "Wat gebeurt er tijdens een sessie?",
+                "a": "We beginnen met een kort gesprek en bepalen een intentie. Daarna kiezen we samen de hulpmiddelen. We sluiten rustig af en delen onze indrukken bij een kop thee."
+              },
+              {
+                "q": "Hoe maak ik een afspraak en betaal ik?",
+                "a": "Via Aimy kies je een sessie, behandelaar en beschikbaar tijdstip. Betalen doe je tijdens je bezoek. Annuleren of verplaatsen kan tot 24 uur van tevoren."
+              }
+            ]
+          }
+        ],
+        "uk": [
+          {
+            "t": "faq",
+            "items": [
+              {
+                "q": "Що таке HATA Studio?",
+                "a": "Тихий простір для жінок, щоб сповільнитися й відновити зв’язок із собою за допомогою рейкі, AromaTouch та дихальних практик."
+              },
+              {
+                "q": "Чи потрібен досвід?",
+                "a": "Ні. Від тебе нічого не очікується. Тобі тут раді такою, яка ти є."
+              },
+              {
+                "q": "Це медична допомога?",
+                "a": "Ні. Це комплементарні практики для розслаблення, і вони не замінюють медичну допомогу. Якщо тебе турбує здоров’я, звернися до лікаря."
+              },
+              {
+                "q": "Що відбувається під час сесії?",
+                "a": "Ми починаємо з короткої розмови та формулюємо намір. Потім разом обираємо інструменти. Завершуємо м’яко й ділимося враженнями за чашкою чаю."
+              },
+              {
+                "q": "Як записатися й оплатити?",
+                "a": "В Aimy можна обрати сесію, спеціаліста та доступний час. Оплата — під час візиту. Скасувати або перенести запис можна не пізніше ніж за 24 години."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "contact": {
+      "slug": {
+        "nl": "contact",
+        "en": "get-in-touch",
+        "uk": "kontakty"
+      },
+      "title": {
+        "nl": "Contact",
+        "en": "Contact",
+        "uk": "Контакти"
+      },
+      "menu": {
+        "nl": "Contact",
+        "en": "Contact",
+        "uk": "Контакти"
+      },
+      "blocks": {
+        "en": [
+          {
+            "t": "image",
+            "key": "studio",
+            "alt": "A calm treatment room with soft sage walls and natural light."
+          },
+          {
+            "t": "p",
+            "x": "Would you like to make an appointment? In Aimy you can calmly explore the sessions and available times."
+          },
+          {
+            "t": "btn",
+            "x": "View available times",
+            "to": "{{BOOKING}}",
+            "ext": true
+          },
+          {
+            "t": "p",
+            "x": "Already booked and have a practical question? Use the contact details in your confirmation email."
+          },
+          {
+            "t": "p",
+            "x": "HATA Studio is based in the Netherlands; you will receive the visit address with your appointment."
+          }
+        ],
+        "nl": [
+          {
+            "t": "image",
+            "key": "studio",
+            "alt": "Een rustige behandelruimte met zachtgroene muren en natuurlijk licht."
+          },
+          {
+            "t": "p",
+            "x": "Wil je een afspraak maken? Via Aimy bekijk je rustig het aanbod en de beschikbare momenten."
+          },
+          {
+            "t": "btn",
+            "x": "Bekijk beschikbare momenten",
+            "to": "{{BOOKING}}",
+            "ext": true
+          },
+          {
+            "t": "p",
+            "x": "Heb je al geboekt en een praktische vraag? Gebruik dan de contactgegevens in je bevestigingsmail."
+          },
+          {
+            "t": "p",
+            "x": "HATA Studio is gevestigd in Nederland; het bezoekadres ontvang je bij de afspraak."
+          }
+        ],
+        "uk": [
+          {
+            "t": "image",
+            "key": "studio",
+            "alt": "Спокійна кімната для сесій із м’якими шавлієвими стінами та природним світлом."
+          },
+          {
+            "t": "p",
+            "x": "Хочеш записатися? В Aimy можна спокійно переглянути сесії та доступний час."
+          },
+          {
+            "t": "btn",
+            "x": "Переглянути доступний час",
+            "to": "{{BOOKING}}",
+            "ext": true
+          },
+          {
+            "t": "p",
+            "x": "Уже маєш запис і практичне запитання? Скористайся контактними даними з листа-підтвердження."
+          },
+          {
+            "t": "p",
+            "x": "HATA Studio працює в Нідерландах; адресу візиту ти отримаєш разом із підтвердженням запису."
+          }
+        ]
+      }
+    },
+    "privacy": {
+      "slug": {
+        "nl": "privacy",
+        "en": "privacy-policy",
+        "uk": "konfidentsiinist"
+      },
+      "title": {
+        "nl": "Privacybeleid",
+        "en": "Privacy policy",
+        "uk": "Політика конфіденційності"
+      },
+      "menu": {
+        "nl": "Privacy",
+        "en": "Privacy",
+        "uk": "Конфіденційність"
+      },
+      "blocks": {
+        "en": [
+          {
+            "t": "p",
+            "x": "This website does not use contact forms, analytics or advertising trackers. Our web server keeps standard technical logs, such as an IP address and visit time, for security."
+          },
+          {
+            "t": "p",
+            "x": "When you make an appointment through Aimy or contact HATA Studio by email, HATA Studio and the relevant service providers use your details only to answer you and organise your appointment. Aimy processes booking details under its own privacy policy."
+          },
+          {
+            "t": "p",
+            "x": "Under the GDPR you have the right to access, correct and delete your personal data. Contact HATA Studio to exercise these rights."
+          }
+        ],
+        "nl": [
+          {
+            "t": "p",
+            "x": "Deze website gebruikt geen contactformulieren, analysetools of advertentietrackers. Onze webserver bewaart standaard technische logs, zoals IP-adres en tijdstip van bezoek, voor de beveiliging."
+          },
+          {
+            "t": "p",
+            "x": "Wanneer je via Aimy een afspraak maakt of per e-mail contact opneemt, gebruiken HATA Studio en de betrokken dienstverleners je gegevens alleen om je vraag te beantwoorden en je afspraak te organiseren. Aimy verwerkt boekingsgegevens volgens het eigen privacybeleid."
+          },
+          {
+            "t": "p",
+            "x": "Op grond van de AVG heb je recht op inzage, correctie en verwijdering van je persoonsgegevens. Neem contact op met HATA Studio om die rechten uit te oefenen."
+          }
+        ],
+        "uk": [
+          {
+            "t": "p",
+            "x": "Цей сайт не використовує форми зворотного зв’язку, аналітику чи рекламні трекери. Для безпеки вебсервер зберігає стандартні технічні журнали, як-от IP-адреса й час візиту."
+          },
+          {
+            "t": "p",
+            "x": "Коли ти записуєшся через Aimy або звертаєшся до HATA Studio електронною поштою, HATA Studio і залучені постачальники послуг використовують твої дані лише для відповіді та організації запису. Aimy обробляє дані бронювання відповідно до власної політики конфіденційності."
+          },
+          {
+            "t": "p",
+            "x": "Згідно з GDPR ти маєш право на доступ, виправлення та видалення персональних даних. Звернися до HATA Studio, щоб скористатися цими правами."
+          }
+        ]
+      }
+    },
+    "cookies": {
+      "slug": {
+        "nl": "cookies",
+        "en": "cookie-notice",
+        "uk": "povidomlennia-pro-cookies"
+      },
+      "title": {
+        "nl": "Cookiebeleid",
+        "en": "Cookie notice",
+        "uk": "Повідомлення про cookies"
+      },
+      "menu": {
+        "nl": "Cookies",
+        "en": "Cookies",
+        "uk": "Cookies"
+      },
+      "blocks": {
+        "en": [
+          {
+            "t": "p",
+            "x": "This site uses only functional cookies needed for it to work, such as remembering your chosen language. We do not use analytics or advertising cookies, so there is no cookie banner to accept."
+          }
+        ],
+        "nl": [
+          {
+            "t": "p",
+            "x": "Deze site gebruikt alleen functionele cookies die nodig zijn om te werken, zoals het onthouden van je gekozen taal. We gebruiken geen analyse- of advertentiecookies, dus er is geen cookiebanner om te accepteren."
+          }
+        ],
+        "uk": [
+          {
+            "t": "p",
+            "x": "Цей сайт використовує лише функціональні cookies, потрібні для роботи, наприклад щоб запам’ятати обрану мову. Ми не використовуємо аналітичні чи рекламні cookies, тому банер погодження не потрібен."
+          }
+        ]
+      }
+    }
+  },
+  "ui": {
+    "book_btn": {
+      "en": "Book",
+      "nl": "Afspraak",
+      "uk": "Запис"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "home": {
+    "slugs": { "nl": "home", "en": "home-en", "uk": "home-uk" }
+  },
+  "reiki": {
+    "slugs": { "nl": "reiki", "en": "reiki-sessions", "uk": "reiki-seansy" }
+  },
+  "aromatouch": {
+    "slugs": { "nl": "aromatouch", "en": "aromatouch-technique", "uk": "aromatouch-tekhnika" }
+  },
+  "breath": {
+    "slugs": { "nl": "ademhaling", "en": "breathwork", "uk": "dykhannia" }
+  },
+  "book": {
+    "slugs": { "nl": "boeken", "en": "book", "uk": "zapys" }
+  },
+  "contact": {
+    "slugs": { "nl": "contact", "en": "get-in-touch", "uk": "kontakty" }
+  },
+  "privacy": {
+    "slugs": { "nl": "privacy", "en": "privacy-policy", "uk": "konfidentsiinist" }
+  },
+  "cookies": {
+    "slugs": { "nl": "cookies", "en": "cookie-notice", "uk": "povidomlennia-pro-cookies" }
+  }
+}

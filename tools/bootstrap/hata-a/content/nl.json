@@ -1,0 +1,78 @@
+{
+  "_meta": {
+    "status": "draft",
+    "note": "Concepttekst voor beoordeling door de klant; niet goedgekeurd voor publicatie."
+  },
+  "home": {
+    "title": "HATA Studio",
+    "blocks": [
+      { "type": "h1", "text": "Kom terug bij jezelf" },
+      { "type": "p", "text": "Een zachte plek voor vrouwen om te vertragen en opnieuw contact te maken met hun hart." },
+      { "type": "quote", "text": "Soms heb je geen antwoorden nodig. Soms heb je ruimte nodig om te voelen." },
+      { "type": "button", "text": "Maak een afspraak", "target": "book" }
+    ]
+  },
+  "reiki": {
+    "title": "Reiki",
+    "blocks": [
+      { "type": "h1", "text": "Reiki" },
+      { "type": "p", "text": "Een rustige sessie met aandacht voor ontspanning, aanwezigheid en herstel." },
+      { "type": "p", "text": "De actuele duur en prijs van iedere sessie zie je in Aimy voordat je de afspraak bevestigt." },
+      { "type": "button", "text": "Maak een afspraak", "target": "book" }
+    ]
+  },
+  "aromatouch": {
+    "title": "AromaTouch",
+    "blocks": [
+      { "type": "h1", "text": "AromaTouch" },
+      { "type": "p", "text": "Een zachte aanrakingservaring met zorgvuldig gekozen aromatische oliën." },
+      { "type": "p", "text": "De actuele duur en prijs van iedere sessie zie je in Aimy voordat je de afspraak bevestigt." },
+      { "type": "button", "text": "Maak een afspraak", "target": "book" }
+    ]
+  },
+  "breath": {
+    "title": "Ademwerk en mindfulness",
+    "blocks": [
+      { "type": "h1", "text": "Ademwerk en mindfulness" },
+      { "type": "p", "text": "Eenvoudige adem- en aandachtsoefeningen om te vertragen en weer te landen." },
+      { "type": "p", "text": "De actuele duur en prijs van iedere sessie zie je in Aimy voordat je de afspraak bevestigt." },
+      { "type": "button", "text": "Maak een afspraak", "target": "book" }
+    ]
+  },
+  "book": {
+    "title": "Afspraak maken",
+    "blocks": [
+      { "type": "h1", "text": "Afspraak maken" },
+      { "type": "p", "text": "Je rondt je afspraak af in het beveiligde boekingsplatform van Aimy. Daar kies je de gewenste sessie, de behandelaar en een beschikbaar tijdstip." },
+      { "type": "button", "text": "Ga naar Aimy", "target": "{{BOOKING}}" },
+      { "type": "p", "text": "De boekingsomgeving is beschikbaar in het Nederlands en Engels." },
+      { "type": "p", "text": "Betalen doe je tijdens je bezoek. Annuleren of verplaatsen kan tot 24 uur voor je afspraak." }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "blocks": [
+      { "type": "h1", "text": "Contact" },
+      { "type": "p", "text": "Wil je een afspraak maken? Via Aimy bekijk je rustig het aanbod en de beschikbare momenten." },
+      { "type": "button", "text": "Bekijk beschikbare momenten", "target": "{{BOOKING}}" },
+      { "type": "p", "text": "Heb je al geboekt en een praktische vraag? Gebruik dan de contactgegevens in je bevestigingsmail." },
+      { "type": "p", "text": "HATA Studio is gevestigd in Nederland; het bezoekadres ontvang je bij de afspraak." }
+    ]
+  },
+  "privacy": {
+    "title": "Privacybeleid",
+    "blocks": [
+      { "type": "h1", "text": "Privacybeleid" },
+      { "type": "p", "text": "Deze website gebruikt geen contactformulieren, analysetools of advertentietrackers. Onze webserver bewaart standaard technische logs, zoals IP-adres en tijdstip van bezoek, voor de beveiliging." },
+      { "type": "p", "text": "Wanneer je via Aimy een afspraak maakt of per e-mail contact opneemt, gebruiken HATA Studio en de betrokken dienstverleners je gegevens alleen om je vraag te beantwoorden en je afspraak te organiseren. Aimy verwerkt boekingsgegevens volgens het eigen privacybeleid." },
+      { "type": "p", "text": "Op grond van de AVG heb je recht op inzage, correctie en verwijdering van je persoonsgegevens. Neem contact op met HATA Studio om die rechten uit te oefenen." }
+    ]
+  },
+  "cookies": {
+    "title": "Cookiebeleid",
+    "blocks": [
+      { "type": "h1", "text": "Cookiebeleid" },
+      { "type": "p", "text": "Deze site gebruikt alleen functionele cookies die nodig zijn om te werken, zoals het onthouden van je gekozen taal. We gebruiken geen analyse- of advertentiecookies, dus er is geen cookiebanner om te accepteren." }
+    ]
+  }
+}
